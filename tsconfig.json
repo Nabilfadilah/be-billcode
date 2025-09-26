@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2018", // Target ECMAScript version
+    "module": "commonjs", // Modul system
+    "outDir": "dist", // Direktori output kompilasi JS
+    "rootDir": "src", // Direktori input TS
+    "strict": true, // Aktifkan semua pemeriksaan tipe ketat
+    "esModuleInterop": true, // Memungkinkan interop dengan modul CommonJS
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Ensures consistent casing in file names
+  },
+  "include": ["src/**/*.ts"], // File-file yang akan di-compile
+  "exclude": ["node_modules"] // Direktori yang dikecualikan dari kompilasi
+}
